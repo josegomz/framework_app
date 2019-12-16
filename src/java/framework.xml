@@ -1,0 +1,24 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<!-- Author: labtw13 -->
+ 
+<struts>
+    <!-- Add your configuration elements here -->
+    <package name="struts" namespace="/" extends="struts-default">
+        <action name="actionCrearFramework" class="com.framework.struts.controller.StrutsController">
+            <result>/pages/struts/crearFramework.jsp</result>
+        </action>
+        <action name="actionMostrarFramework" class="com.framework.struts.controller.StrutsController" method="obtenerRegistros">
+            <result>/pages/struts/mostrarFramework.jsp</result>
+        </action>
+        <action name="actionAyudaFramework" class="com.framework.struts.controller.StrutsController">
+            <result>/pages/struts/ayudaFramework.jsp</result>
+        </action>
+        <action name="actionInsertFramework" class="com.framework.struts.controller.StrutsController" method="crearRegistro">
+            <result name="success">/pages/struts/mostrarFramework.jsp</result>
+            <result name="error">/pages/struts/errorFramework.jsp</result>
+        </action>
+    </package>
+</struts>

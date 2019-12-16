@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 6/12/2019 01:20:24 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.framework.struts.entity.Struts" optimistic-lock="version" schema="public" table="struts">
+    <id name="cosigo" type="long">
+      <column name="cosigo"/>
+      <generator class="identity"/>
+    </id>
+    <property name="nombre" type="string">
+      <column name="nombre"/>
+    </property>
+    <property name="creacion" type="date">
+      <column length="13" name="creacion"/>
+    </property>
+    <property name="creador" type="string">
+      <column name="creador"/>
+    </property>
+    <property name="pais" type="string">
+      <column name="pais"/>
+    </property>
+    <property name="descripcion" type="string">
+      <column name="descripcion"/>
+    </property>
+    <property name="licencia" type="string">
+      <column name="licencia"/>
+    </property>
+  </class>
+</hibernate-mapping>

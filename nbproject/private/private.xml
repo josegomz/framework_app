@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/labtw13/NetBeansProjects/framework_app/src/java/com/framework/struts/entity/Struts.java</file>
+            <file>file:/home/labtw13/NetBeansProjects/framework_app/web/pages/struts/mostrarFramework.jsp</file>
+            <file>file:/home/labtw13/NetBeansProjects/framework_app/web/pages/struts/index.jsp</file>
+            <file>file:/home/labtw13/NetBeansProjects/framework_app/src/java/com/framework/struts/service/StrutsService.java</file>
+            <file>file:/home/labtw13/NetBeansProjects/framework_app/src/java/com/framework/struts/model/StrutsModelImpl.java</file>
+            <file>file:/home/labtw13/NetBeansProjects/framework_app/web/pages/struts/crearFramework.jsp</file>
+            <file>file:/home/labtw13/NetBeansProjects/framework_app/src/java/com/framework/struts/controller/StrutsController.java</file>
+            <file>file:/home/labtw13/NetBeansProjects/framework_app/src/java/framework.xml</file>
+        </group>
+    </open-files>
+</project-private>
